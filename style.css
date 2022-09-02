@@ -1,0 +1,30 @@
+html{
+    background-color:aqua
+}
+main{
+    height: 100vh;
+}
+nav{
+    display:grid;
+    grid-template-columns:repeat(3,1fr)
+}
+.grid-form{
+
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+}
+.butons{
+    display: grid;
+}
+.butons input{
+    color: aqua;
+    background-color: black;
+    margin-top: 30px;
+    height: 30px;
+    width: 100px;
+    border-radius: 3px;
+    font-size: 18px;
+}
